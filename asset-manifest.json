@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/musophile/static/css/main.aad3bc72.css",
+    "main.js": "/musophile/static/js/main.2d292c58.js",
+    "static/js/845.20c5581b.chunk.js": "/musophile/static/js/845.20c5581b.chunk.js",
+    "static/js/787.22edae46.chunk.js": "/musophile/static/js/787.22edae46.chunk.js",
+    "static/media/Method.png": "/musophile/static/media/Method.984e83cd767f894452c3.png",
+    "static/media/Logo.jpg": "/musophile/static/media/Logo.12b6e26a2afe7a0f402a.jpg",
+    "static/media/Ad-free.png": "/musophile/static/media/Ad-free.d1532937d1e30725db1d.png",
+    "static/media/Play.png": "/musophile/static/media/Play.effdea1076099843a17c.png",
+    "static/media/Pay.png": "/musophile/static/media/Pay.4f4e4bd0bcea81eeb571.png",
+    "static/media/Offline.png": "/musophile/static/media/Offline.4a0796b35276cc67b41f.png",
+    "static/media/Tick.png": "/musophile/static/media/Tick.62ebbf7dc5baca7e6e9f.png",
+    "index.html": "/musophile/index.html",
+    "main.aad3bc72.css.map": "/musophile/static/css/main.aad3bc72.css.map",
+    "main.2d292c58.js.map": "/musophile/static/js/main.2d292c58.js.map",
+    "845.20c5581b.chunk.js.map": "/musophile/static/js/845.20c5581b.chunk.js.map",
+    "787.22edae46.chunk.js.map": "/musophile/static/js/787.22edae46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aad3bc72.css",
+    "static/js/main.2d292c58.js"
+  ]
+}
