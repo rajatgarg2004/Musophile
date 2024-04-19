@@ -337,7 +337,8 @@
 }
 
 .Logger{
-  height:1000px;
+  min-height:100vh;
+  height:auto;
   width:auto;
   background-image: linear-gradient(rgba(255, 255, 255) -500%, rgb(0, 0, 0,100) 100%);
   position: relative;
