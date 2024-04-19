@@ -10,7 +10,7 @@ import Home from "./Components/Home";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
-    <div>
+    <div style={{backgroundImage: 'linear-gradient(rgba(255, 255, 255) -500%, rgb(0, 0, 0,100) 100%)'}}>
       <BrowserRouter>
         <Nav />
         <Routes>

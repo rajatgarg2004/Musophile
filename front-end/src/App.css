@@ -473,7 +473,7 @@
 .searchComponent{
   background-image: linear-gradient(rgba(255, 255, 255) -500%, rgb(0, 0, 0,100) 100%);
   width: 100vw;
-  height:800px;
+  min-height:100vh;
 }
 .dropdown2{
   margin-left:20px;
