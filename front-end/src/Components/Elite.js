@@ -231,7 +231,7 @@ const Elite = () => {
                             </div>
                             <div style={{width:"25%",display:"flex",marginTop:'1%'}}>
                                     <a style={{height:"0px"}} href="https://www.linkedin.com/in/rajat-garg-72b15a226/"target="_blank"><i className="fab fa-linkedin fa-2x"  style={{ "color": "#ffffff", "padding": "15px", "marginRight": "10px", "display": "inline-block", "borderRadius": "50px", "border": "none", "backgroundColor": "#222326", "cursor": "pointer" }}></i></a>
-                                    <a style={{height:"0px"}} href="https://github.com/rajatgarg2004?tab=repositories" target="_blank"><i className="fab fa-github fa-2x" style={{ "color": "#ffffff", "padding": "15px", "marginRight": "10px", "display": "inline-block", "borderRadius": "50px", "border": "none", "backgroundColor": "#222326", "cursor": "pointer" }}></i></a>
+                                    <a style={{height:"0px"}} href="https://github.com/rajatgarg2004" target="_blank"><i className="fab fa-github fa-2x" style={{ "color": "#ffffff", "padding": "15px", "marginRight": "10px", "display": "inline-block", "borderRadius": "50px", "border": "none", "backgroundColor": "#222326", "cursor": "pointer" }}></i></a>
                                     <a style={{height:"0px"}} href="https://www.hackerrank.com/rajatgarg2004?hr_r=1" target="_blank"><i class="fab fa-hackerrank fa-2x" style={{ "color": "#ffffff", "padding": "15px", "marginRight": "10px", "display": "inline-block", "borderRadius": "50px", "border": "none", "backgroundColor": "#222326", "cursor": "pointer" }}></i></a>
                             </div>
                         </div>
