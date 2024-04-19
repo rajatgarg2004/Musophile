@@ -9,7 +9,7 @@ import Tick from '../images/Tick.png';
 import {Link} from 'react-router-dom'
 const Elite = () => {
     return (
-        <div className="hello">
+        <div style={{backgroundColor:'white'}}>
             <div className="Offer" style={{ "fontFamily": "Arial, Helvetica, sans-serif" }}>
                 <div className="sizes">
                     <span className="get">Get Eliteness Free For 1 month</span>
