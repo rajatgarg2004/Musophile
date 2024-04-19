@@ -13,19 +13,19 @@ const Home = () => {
     }, [])
     const [products, setProducts] = useState([]);
     const collect1 = async () => {
-        let result = await fetch("http://localhost:3050/songs-find/a")
+        let result = await fetch(process.env.REACT_APP_backend_url + '/songs-find/a')
         result = await result.json();
         setProducts(result);
     }
     const collect = async (event) => {
         if (!event.target.value) {
-            let result = await fetch("http://localhost:3050/songs-find/a")
+            let result = await fetch(process.env.REACT_APP_backend_url+'/songs-find/a')
             result = await result.json();
             setProducts(result);
         }
         let key = event.target.value;
         key = key.toLowerCase();
-        let result = await fetch("http://localhost:3050/songs-find/" + key)
+        let result = await fetch(process.env.REACT_APP_backend_url + '/songs-find/' + key)
         result = await result.json();
         setProducts(result);
     }

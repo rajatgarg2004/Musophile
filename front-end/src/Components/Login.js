@@ -14,7 +14,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
     const collect = async () => {
         email = email.toLowerCase();
-        let result = await fetch('http://localhost:3050/login', {
+        let result = await fetch(process.env.REACT_APP_backend_url + '/login', {
             method: "POST",
             body: JSON.stringify({ email, password }),
             headers: {

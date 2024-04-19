@@ -19,12 +19,12 @@ const SignUp = () => {
             return false;
         }
         else {
-            let result1 = await fetch('http://localhost:3050/search/' + email)
+            let result1 = await fetch(process.env.REACT_APP_backend_url + '/search/' + email)
             result1 = await result1.json();
-            let result2 = await fetch('http://localhost:3050/search1/' + username)
+            let result2 = await fetch(process.env.REACT_APP_backend_url + '/search1/' + username)
             result2 = await result2.json();
             if (result1.length < 1 && result2.length < 1) {
-                let result = await fetch('http://localhost:3050/register', {
+                let result = await fetch(process.env.REACT_APP_backend_url + '/register', {
                     method: 'post',
                     body: JSON.stringify({ username, email, password }),
                     headers: {
