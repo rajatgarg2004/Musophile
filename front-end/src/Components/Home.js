@@ -45,7 +45,7 @@ const Home = () => {
                     {
                         products.length > 0 ?
                             products.map((item, index) =>
-                                <div style={{width:'30%'}}>
+                                <div className="songCard">
                                     <ul key={item.title} style={{backgroundColor:'grey', padding:'10px',margin:'10px',display:'flex',flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
                                         <li className="item-css">{item.title}</li>
                                         <button className="play123" onClick={mover}>

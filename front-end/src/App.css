@@ -650,16 +650,22 @@
 }
 
 
-/* @media only screen and (max-width: 576px) {
-  .navbar{
-    width:576px;
+@media only screen and (max-width: 720px) {
+  .songCard{
+    width:100%;
   }
-  
-  .navbar ul li {
-    max-width: 12.5%;
-    min-width: 10%;
+}
+@media only screen and (min-width: 720px) {
+  .songCard{
+    width:50%;
   }
-} */
+}
+@media only screen and (min-width: 1200px) {
+  .songCard{
+    width:30%;
+  }
+}
+
 
 .contactDiv{
   width: auto;
